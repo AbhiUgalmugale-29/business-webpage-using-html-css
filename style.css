@@ -1,0 +1,39 @@
+body {
+    background-color: #f9f4ef;
+    margin: 0;
+  }
+  
+  /*navbar*/
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: #5c4033;
+    position: fixed;
+    height: 20px;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .logo img {
+    height: 70px;
+  }
+  
+  .navbar {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #fffffe;
+    text-transform: capitalize;
+  }
+  
+  .navbar a:hover {
+    color: black;
+  }
