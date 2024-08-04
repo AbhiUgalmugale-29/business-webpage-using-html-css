@@ -162,7 +162,7 @@ body {
 /*menu*/
 .menu-body {
   text-transform: capitalize;
-  font-family:"Ubuntu", sans-serif ;
+  font-family: "Ubuntu", sans-serif;
   background-color: #fffffe;
   border-bottom: 1px solid black;
 }
@@ -228,7 +228,14 @@ body {
   margin-top: 50px;
 }
 
-.product-buttons{
+.products {
+  height: 430px;
+  width: 330px;
+  border: 1px solid black;
+  background-color: #eaddcf;
+}
+
+.product-buttons {
   display: flex;
   justify-content: center;
   margin: 15px 0px;
@@ -251,13 +258,6 @@ body {
 .product-buttons img:active {
   background-color: #fffffe;
   transform: translateY(2px);
-}
-
-.products{
-  height: 450px;
-  width: 350px;
-  border: 1px solid black;
-  background-color: #eaddcf;
 }
 
 .p1 {
@@ -287,4 +287,59 @@ body {
   border: 1px solid #d4a373;
 }
 
+/*review*/
+.review-body {
+  border-bottom: 1px solid black;
+}
 
+.review-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 70px;
+  margin-bottom: 120px;
+}
+
+.reviews-card {
+  height: 420px;
+  width: 370px;
+  background-color: #716040;
+}
+
+.reviews-card p {
+  height: 70px;
+  width: 300px;
+  line-height: 30px;
+  color: #eaddcf;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: capitalize;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.review-person-image {
+  display: block;
+  margin: 80px auto 0px auto;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 2px solid #020826;
+}
+
+.reviewer-name {
+  text-align: center;
+  font-size: 15px;
+  color: #eaddcf;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.star {
+  height: 80px;
+  display: block;
+  padding: 0;
+  margin: 0 auto;
+}
