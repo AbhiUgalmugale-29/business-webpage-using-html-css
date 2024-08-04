@@ -1,6 +1,6 @@
-# Coffee Shop Website
+# The Coffee Parlour Website
 
-Welcome to the Coffee Shop Website! This project showcases a beautifully designed coffee shop website with various sections, including a navigation bar, home page, about us section, menu, products, reviews, and contact information.
+Welcome to The Coffee Parlour website, a beautifully designed online presence for a coffee shop. This project features various sections, including a navigation bar, home page, about us section, menu, products, reviews, and contact information.
 
 ## Hosted Link
 You can visit the live website here: [Coffee Shop Website](https://coffeeshopwebsitedesign.netlify.app/)

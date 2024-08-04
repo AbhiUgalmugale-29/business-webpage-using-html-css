@@ -55,11 +55,32 @@ body {
   padding-bottom: 100px;
 }
 
-.home-description h3 {
+.home-description h1 span {
   color: #020826;
-  font-size: 4rem;
+}
+
+.home-description h1 {
+  color: #f25042;
+}
+
+.home-description h1 {
+  font-size: 3.8rem;
   margin-bottom: 10px;
   text-transform: uppercase;
+}
+
+.home-description p {
+  width: 70%;
+  line-height: 30px;
+  color: #716040;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  padding-left: 50px;
+}
+
+.button {
+  margin-left: 50px;
 }
 
 /*image*/
