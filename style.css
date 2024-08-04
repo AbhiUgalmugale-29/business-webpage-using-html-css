@@ -136,7 +136,7 @@ body {
 /*about*/
 .about-body {
   padding-bottom: 50px;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 }
 
 .about-container {
@@ -152,4 +152,45 @@ body {
   margin-top: 120px;
   margin-bottom: 10px;
   text-transform: uppercase;
+}
+
+/*menu*/
+.menu-body {
+  background-color: #fffffe;
+  border-bottom: 1px solid black;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.menu-card {
+  background-color: #eaddcf;
+  color: #020826;
+  height: 450px;
+  width: 350px;
+  padding: 10px 5px;
+  border: 2px solid #1a1a1a;
+  margin: 20px;
+  text-align: center;
+}
+
+.menu-image {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: 10px auto;
+  border: 2px solid #1a1a1a;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+}
+
+
+.menu-image:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); 
 }
